@@ -1,5 +1,5 @@
 name: Push Docker Image
-on: [pull_request]
+on: [push]
 
 jobs:
   build-and-test:
@@ -26,4 +26,3 @@ jobs:
             dunaalsulaiman/typescript-app:latest
             dunaalsulaiman/typescript-app:${{ github.sha }}
 
-            
