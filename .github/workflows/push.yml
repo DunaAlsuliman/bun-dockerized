@@ -25,3 +25,5 @@ jobs:
           tags: |
             dunaalsulaiman/typescript-app:latest
             dunaalsulaiman/typescript-app:${{ github.sha }}
+
+            
